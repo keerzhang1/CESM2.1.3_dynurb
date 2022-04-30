@@ -121,6 +121,7 @@ contains
     use CNNDynamicsMod                   , only : CNNDynamicsReadNML
     use SoilBiogeochemDecompCascadeBGCMod, only : DecompCascadeBGCreadNML
     use CNPhenologyMod                   , only : CNPhenologyReadNML
+    use landunit_varcon                  , only : max_lunit
     !
     ! !LOCAL VARIABLES:
     integer :: i                    ! loop indices
